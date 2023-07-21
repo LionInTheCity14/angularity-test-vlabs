@@ -63,7 +63,7 @@
               <div
                 class="mainstep"
                 id="step1"
-                style="visibility: visible; z-index: 1000"
+                style="visibility: hidden; z-index: 1000"
               >
                 <strong
                   class="incanvas"
@@ -137,8 +137,8 @@
                   id="next-to-step2"
                   style="
                     position: absolute;
-                    left: 662px;
-                    top: 450px;
+                    left: 690px;
+                    top: 510px;
                     cursor: pointer;
                     font-size: 15px;
                     background-color: #2150a0;
@@ -352,10 +352,10 @@ please use border to place and visualize arrows, transbox and all html elements 
                   type="button"
                   id="next-to-step3"
                   style="
-                    visibility: hidden;
+                    visibility: visible;
                     position: absolute;
-                    left: 662px;
-                    top: 450px;
+                    left: 720px;
+                    top: 510px;
                     cursor: pointer;
                     font-size: 15px;
                     background-color: #2150a0;
@@ -365,6 +365,27 @@ please use border to place and visualize arrows, transbox and all html elements 
                   "
                   value="&nbsp;Next&nbsp;"
                   onclick="step3()"
+                />
+
+              <!-- BACK BUTTON -->
+
+              <input
+                  type="button"
+                  id="back-to-step1"
+                  style="
+                    visibility: visible;
+                    position: absolute;
+                    left: 660px;
+                    top: 510px;
+                    cursor: pointer;
+                    font-size: 15px;
+                    background-color: #2150a0;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    color: #fff;
+                  "
+                  value="&nbsp;Back&nbsp;"
+                  onclick="backToStep1()"
                 />
               </div>
 
@@ -411,8 +432,9 @@ please use border to place and visualize arrows, transbox and all html elements 
                 />
 
                 <!-- GIFS  -->
+
                 <img
-                  src="images/water-pouring-gif.gif"
+                  src="images/step3-gif1.gif"
                   alt="gif"
                   id="gif1-step3"
                   class="board"
@@ -425,6 +447,11 @@ please use border to place and visualize arrows, transbox and all html elements 
                     margin-top: 150px;
                   "
                 />
+
+                <!-- VIDEOS -->
+
+                <!-- <video id="gif1-step3" class="board" src="images/step3-video1.mp4" width="605" height="385" style="visibility: hidden; position: absolute; margin: left
+                70px; margin-top: 150px;">Play</video> -->
 
                 <!-- ARROWS  -->
 
@@ -471,8 +498,8 @@ please use border to place and visualize arrows, transbox and all html elements 
                   style="
                     visibility: hidden;
                     position: absolute;
-                    left: 662px;
-                    top: 450px;
+                    left: 720px;
+                    top: 510px;
                     cursor: pointer;
                     font-size: 15px;
                     background-color: #2150a0;
@@ -483,6 +510,28 @@ please use border to place and visualize arrows, transbox and all html elements 
                   value="&nbsp;Next&nbsp;"
                   onclick="step4()"
                 />
+
+                <!-- BACK BUTTON -->
+                <input
+                  type="button"
+                  id="back-to-step2"
+                  style="
+                    visibility: hidden;
+                    position: absolute;
+                    left: 660px;
+                    top: 510px;
+                    cursor: pointer;
+                    font-size: 15px;
+                    background-color: #2150a0;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    color: #fff;
+                  "
+                  value="&nbsp;Back&nbsp;"
+                  onclick="backToStep2()"
+                />
+              </div>
+
               </div>
 
               <!-- STEP 4 -->
@@ -581,14 +630,16 @@ please use border to place and visualize arrows, transbox and all html elements 
                   onclick="movebeaker1Step4()"
                 />
 
+                <!-- NEXT BUTTON  -->
+
                 <input
                   type="button"
                   id="next-to-step5"
                   style="
                     visibility: hidden;
                     position: absolute;
-                    left: 662px;
-                    top: 450px;
+                    left: 720px;
+                    top: 510px;
                     cursor: pointer;
                     font-size: 15px;
                     background-color: #2150a0;
@@ -598,6 +649,26 @@ please use border to place and visualize arrows, transbox and all html elements 
                   "
                   value="&nbsp;Next&nbsp;"
                   onclick="step5()"
+                />
+
+                <!-- BACK BUTTON -->
+                <input
+                  type="button"
+                  id="back-to-step3"
+                  style="
+                    visibility: hidden;
+                    position: absolute;
+                    left: 660px;
+                    top: 510px;
+                    cursor: pointer;
+                    font-size: 15px;
+                    background-color: #2150a0;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    color: #fff;
+                  "
+                  value="&nbsp;Back&nbsp;"
+                  onclick="backToStep3()"
                 />
               </div>
 
@@ -745,14 +816,15 @@ please use border to place and visualize arrows, transbox and all html elements 
                   onclick="clickTare1Step5()"
                 />
 
+                <!-- NEXT BUTTON  -->
                 <input
                   type="button"
                   id="next-to-step6"
                   style="
                     visibility: hidden;
                     position: absolute;
-                    left: 662px;
-                    top: 450px;
+                    left: 720px;
+                    top: 510px;
                     cursor: pointer;
                     font-size: 15px;
                     background-color: #2150a0;
@@ -762,6 +834,26 @@ please use border to place and visualize arrows, transbox and all html elements 
                   "
                   value="&nbsp;Next&nbsp;"
                   onclick="step6()"
+                />
+
+                <!-- BACK BUTTON -->
+                <input
+                  type="button"
+                  id="back-to-step4"
+                  style="
+                    visibility: hidden;
+                    position: absolute;
+                    left: 660px;
+                    top: 510px;
+                    cursor: pointer;
+                    font-size: 15px;
+                    background-color: #2150a0;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    color: #fff;
+                  "
+                  value="&nbsp;Back&nbsp;"
+                  onclick="backToStep4()"
                 />
               </div>
 
@@ -861,14 +953,15 @@ please use border to place and visualize arrows, transbox and all html elements 
                   onclick="moveplate1Step6()"
                 />
 
+                <!-- NEXT BUTTON  -->
                 <input
                   type="button"
                   id="next-to-step7"
                   style="
                     visibility: hidden;
                     position: absolute;
-                    left: 662px;
-                    top: 450px;
+                    left: 720px;
+                    top: 510px;
                     cursor: pointer;
                     font-size: 15px;
                     background-color: #2150a0;
@@ -878,6 +971,26 @@ please use border to place and visualize arrows, transbox and all html elements 
                   "
                   value="&nbsp;Next&nbsp;"
                   onclick="step7()"
+                />
+
+                <!-- BACK BUTTON -->
+                <input
+                  type="button"
+                  id="back-to-step5"
+                  style="
+                    visibility: hidden;
+                    position: absolute;
+                    left: 660px;
+                    top: 510px;
+                    cursor: pointer;
+                    font-size: 15px;
+                    background-color: #2150a0;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    color: #fff;
+                  "
+                  value="&nbsp;Back&nbsp;"
+                  onclick="backToStep5()"
                 />
               </div>
 
@@ -971,8 +1084,8 @@ please use border to place and visualize arrows, transbox and all html elements 
                   style="
                     visibility: hidden;
                     position: absolute;
-                    left: 662px;
-                    top: 450px;
+                    left: 720px;
+                    top: 510px;
                     cursor: pointer;
                     font-size: 15px;
                     background-color: #2150a0;
@@ -982,6 +1095,26 @@ please use border to place and visualize arrows, transbox and all html elements 
                   "
                   value="&nbsp;Next&nbsp;"
                   onclick="step8()"
+                />
+
+                <!-- BACK BUTTON -->
+                <input
+                  type="button"
+                  id="back-to-step6"
+                  style="
+                    visibility: hidden;
+                    position: absolute;
+                    left: 660px;
+                    top: 510px;
+                    cursor: pointer;
+                    font-size: 15px;
+                    background-color: #2150a0;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    color: #fff;
+                  "
+                  value="&nbsp;Back&nbsp;"
+                  onclick="backToStep6()"
                 />
               </div>
 
@@ -1082,14 +1215,15 @@ please use border to place and visualize arrows, transbox and all html elements 
                   onclick="moveplate1Step8()"
                 />
 
+                <!-- NEXT BUTTON  -->
                 <input
                   type="button"
                   id="next-to-step9"
                   style="
                     visibility: hidden;
                     position: absolute;
-                    left: 662px;
-                    top: 450px;
+                    left: 720px;
+                    top: 510px;
                     cursor: pointer;
                     font-size: 15px;
                     background-color: #2150a0;
@@ -1099,6 +1233,26 @@ please use border to place and visualize arrows, transbox and all html elements 
                   "
                   value="&nbsp;Next&nbsp;"
                   onclick="step9()"
+                />
+
+                <!-- BACK BUTTON -->
+                <input
+                  type="button"
+                  id="back-to-step7"
+                  style="
+                    visibility: hidden;
+                    position: absolute;
+                    left: 660px;
+                    top: 510px;
+                    cursor: pointer;
+                    font-size: 15px;
+                    background-color: #2150a0;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    color: #fff;
+                  "
+                  value="&nbsp;Back&nbsp;"
+                  onclick="backToStep7()"
                 />
               </div>
 
@@ -1399,14 +1553,15 @@ please use border to place and visualize arrows, transbox and all html elements 
                   onclick="moveSieves5Step9()"
                 />
 
+                <!-- NEXT BUTTON  -->
                 <input
                   type="button"
                   id="next-to-step10"
                   style="
                     visibility: hidden;
                     position: absolute;
-                    left: 662px;
-                    top: 450px;
+                    left: 720px;
+                    top: 510px;
                     cursor: pointer;
                     font-size: 15px;
                     background-color: #2150a0;
@@ -1416,6 +1571,26 @@ please use border to place and visualize arrows, transbox and all html elements 
                   "
                   value="&nbsp;Next&nbsp;"
                   onclick="step10()"
+                />
+
+                <!-- BACK BUTTON -->
+                <input
+                  type="button"
+                  id="back-to-step8"
+                  style="
+                    visibility: hidden;
+                    position: absolute;
+                    left: 660px;
+                    top: 510px;
+                    cursor: pointer;
+                    font-size: 15px;
+                    background-color: #2150a0;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    color: #fff;
+                  "
+                  value="&nbsp;Back&nbsp;"
+                  onclick="backToStep8()"
                 />
               </div>
 
@@ -1768,14 +1943,15 @@ please use border to place and visualize arrows, transbox and all html elements 
                   onclick="moveRod3Step10()"
                 />
 
+                <!-- NEXT BUTTON  -->
                 <input
                   type="button"
                   id="next-to-step11"
                   style="
                     visibility: hidden;
                     position: absolute;
-                    left: 662px;
-                    top: 450px;
+                    left: 720px;
+                    top: 510px;
                     cursor: pointer;
                     font-size: 15px;
                     background-color: #2150a0;
@@ -1785,6 +1961,26 @@ please use border to place and visualize arrows, transbox and all html elements 
                   "
                   value="&nbsp;Next&nbsp;"
                   onclick="step11()"
+                />
+
+                <!-- BACK BUTTON -->
+                <input
+                  type="button"
+                  id="back-to-step9"
+                  style="
+                    visibility: hidden;
+                    position: absolute;
+                    left: 660px;
+                    top: 510px;
+                    cursor: pointer;
+                    font-size: 15px;
+                    background-color: #2150a0;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    color: #fff;
+                  "
+                  value="&nbsp;Back&nbsp;"
+                  onclick="backToStep9()"
                 />
               </div>
 
@@ -1885,14 +2081,15 @@ please use border to place and visualize arrows, transbox and all html elements 
                   onclick="movebeaker1Step11()"
                 />
 
+                <!-- NEXT BUTTON  -->
                 <input
                   type="button"
                   id="next-to-step12"
                   style="
                     visibility: hidden;
                     position: absolute;
-                    left: 662px;
-                    top: 450px;
+                    left: 720px;
+                    top: 510px;
                     cursor: pointer;
                     font-size: 15px;
                     background-color: #2150a0;
@@ -1902,6 +2099,26 @@ please use border to place and visualize arrows, transbox and all html elements 
                   "
                   value="&nbsp;Next&nbsp;"
                   onclick="step12()"
+                />
+
+                <!-- BACK BUTTON -->
+                <input
+                  type="button"
+                  id="back-to-step10"
+                  style="
+                    visibility: hidden;
+                    position: absolute;
+                    left: 660px;
+                    top: 510px;
+                    cursor: pointer;
+                    font-size: 15px;
+                    background-color: #2150a0;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    color: #fff;
+                  "
+                  value="&nbsp;Back&nbsp;"
+                  onclick="backToStep10()"
                 />
               </div>
 
@@ -1977,103 +2194,53 @@ please use border to place and visualize arrows, transbox and all html elements 
                   "
                 />
 
-                <!-- GIFS  -->
-
-                <!-- <img
-                  src="images/step12-gif1.gif"
-                  id="gif1-step12"
-                  alt="image"
-                  class="board"
-                  width="605"
-                  height="385"
-                  style="
-                    visibility: hidden;
-                    position: absolute;
-                    margin-left: 70px;
-                    margin-top: 150px;
-                  "
-                /> -->
-
-                <!-- ARROWS  -->
-
-                <img
-                  id="arr1-step12"
-                  class="arr1-strp12"
-                  src="images/arrow left.gif"
-                  alt="picture"
-                  width="80"
-                  height="50"
-                  style="
-                    visibility: hidden;
-                    position: absolute;
-                    margin-left: 41em;
-                    margin-top: 170px;
-                  "
+                <!-- NEXT BUTTONS  -->
+                <input
+                type="button"
+                id="reading-fill-1-step12"
+                style="
+                  visibility: hidden;
+                  position: absolute;
+                  left: 720px;
+                  top: 510px;
+                  cursor: pointer;
+                  font-size: 15px;
+                  background-color: #2150a0;
+                  padding-top: 5px;
+                  padding-bottom: 5px;
+                  color: #fff;
+                "
+                value="&nbsp;Next&nbsp;"
+                onclick="changeResult1Step12()"
                 />
 
-                <img
-                  id="arr2-step12"
-                  class="arr2-strp12"
-                  src="images/arrow left.gif"
-                  alt="picture"
-                  width="80"
-                  height="50"
-                  style="
-                    visibility: hidden;
-                    position: absolute;
-                    margin-left: 42em;
-                    margin-top: 200px;
-                  "
+                <input
+                type="button"
+                id="reading-fill-2-step12"
+                style="
+                  visibility: hidden;
+                  position: absolute;
+                  left: 720px;
+                  top: 510px;
+                  cursor: pointer;
+                  font-size: 15px;
+                  background-color: #2150a0;
+                  padding-top: 5px;
+                  padding-bottom: 5px;
+                  color: #fff;
+                "
+                value="&nbsp;Next&nbsp;"
+                onclick="changeResult2Step12()"
                 />
 
-                <!-- TRANSBOXES  -->
-
-                <img
-                  id="trans1-step12"
-                  class="board"
-                  src="images/transbox.png"
-                  alt="picture"
-                  width="150"
-                  height="70"
-                  style="
-                    visibility: hidden;
-                    background-color: none;
-                    position: absolute;
-                    margin-left: 520px;
-                    margin-top: 185px;
-                    /* border: 1px solid black; */
-                    cursor: pointer;
-                  "
-                  onclick="changeResult1Step12()"
-                />
-
-                <img
-                  id="trans2-step12"
-                  class="board"
-                  src="images/transbox.png"
-                  alt="picture"
-                  width="150"
-                  height="70"
-                  style="
-                    visibility: hidden;
-                    background-color: none;
-                    position: absolute;
-                    margin-left: 520px;
-                    margin-top: 185px;
-                    /* border: 1px solid black; */
-                    cursor: pointer;
-                  "
-                  onclick="changeResult2Step12()"
-                />
-
-                <!-- <input
+                <input
                   type="button"
-                  id="next-to-step13"
+                  id="next-to-postTest"
                   style="
                     visibility: hidden;
                     position: absolute;
-                    left: 662px;
-                    top: 450px;
+                    left: 720px;
+                    top: 510px;
                     cursor: pointer;
                     font-size: 15px;
                     background-color: #2150a0;
@@ -2081,9 +2248,29 @@ please use border to place and visualize arrows, transbox and all html elements 
                     padding-bottom: 5px;
                     color: #fff;
                   "
-                  value="&nbsp;Next&nbsp;"
-                  onclick="step13()"
-                /> -->
+                  value="&nbsp;Post Test&nbsp;"
+                  onclick="toPostTest()"
+                />
+
+                <!-- BACK BUTTON -->
+                <input
+                  type="button"
+                  id="back-to-step11"
+                  style="
+                    visibility: hidden;
+                    position: absolute;
+                    left: 660px;
+                    top: 510px;
+                    cursor: pointer;
+                    font-size: 15px;
+                    background-color: #2150a0;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    color: #fff;
+                  "
+                  value="&nbsp;Back&nbsp;"
+                  onclick="backToStep11()"
+                />
               </div>
             </div>
           </td>
