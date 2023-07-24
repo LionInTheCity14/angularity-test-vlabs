@@ -124,14 +124,17 @@ function movebeaker1Step3() {
   document.querySelector("#png1-step3").style.visibility = "hidden";
   document.querySelector("#arr1-step3").style.visibility = "hidden";
   document.querySelector("#trans1-step3").style.visibility = "hidden";
+
   document.querySelector("#gif1-step3").style.visibility = "visible";
 
-  myTimeout = setTimeout(myGreeting1Step3, 13500);
+  myTimeout = setTimeout(myGreeting1Step3, 8000);
 }
 
 // TIME DELAY FUNCTION OF STEP 3
 
 function myGreeting1Step3() {
+  document.querySelector("#gif1-step3").style.visibility = "hidden";
+  document.querySelector("#png2-step3").style.visibility = "visible";
   document.querySelector("#next-to-step4").style.visibility = "visible";
   document.querySelector("#back-to-step2").style.visibility = "visible";
 
@@ -156,6 +159,7 @@ function backToStep4(){
 function step4() {
   document.querySelector("#step3").style.visibility = "hidden";
   document.querySelector("#gif1-step3").style.visibility = "hidden";
+  document.querySelector("#png2-step3").style.visibility = "visible";
   document.querySelector("#next-to-step4").style.visibility = "hidden";
   document.querySelector("#back-to-step2").style.visibility = "hidden";
 
@@ -535,7 +539,7 @@ function moveplate1Step10(){
 
   document.querySelector("#gif1-step10").style.visibility = "visible";
 
-  myTimeout = setTimeout(myGreeting1Step10, 500);
+  myTimeout = setTimeout(myGreeting1Step10, 5500);
 }
 
 function moveplate2Step10(){
@@ -544,7 +548,7 @@ function moveplate2Step10(){
 
   document.querySelector("#gif3-step10").style.visibility = "visible";
 
-  myTimeout = setTimeout(myGreeting3Step10, 1500);
+  myTimeout = setTimeout(myGreeting3Step10, 5500);
 }
 
 function moveplate3Step10(){
@@ -553,7 +557,7 @@ function moveplate3Step10(){
 
   document.querySelector("#gif5-step10").style.visibility = "visible";
 
-  myTimeout = setTimeout(myGreeting5Step10, 11000);
+  myTimeout = setTimeout(myGreeting5Step10, 5500);
 }
 
 function moveRod1Step10(){
@@ -562,7 +566,7 @@ function moveRod1Step10(){
 
   document.querySelector("#gif2-step10").style.visibility = "visible";
 
-  myTimeout = setTimeout(myGreeting2Step10, 11500);
+  myTimeout = setTimeout(myGreeting2Step10, 14500);
 }
 
 function moveRod2Step10(){
@@ -571,7 +575,7 @@ function moveRod2Step10(){
 
   document.querySelector("#gif4-step10").style.visibility = "visible";
 
-  myTimeout = setTimeout(myGreeting4Step10, 11000);
+  myTimeout = setTimeout(myGreeting4Step10, 14500);
 }
 
 function moveRod3Step10(){
@@ -580,8 +584,18 @@ function moveRod3Step10(){
 
   document.querySelector("#gif6-step10").style.visibility = "visible";
 
-  myTimeout = setTimeout(myGreeting6Step10, 14000);
+  myTimeout = setTimeout(myGreeting6Step10, 14500);
 }
+
+function moveRod4Step10(){
+  document.querySelector("#arr7-step10").style.visibility = "hidden";
+  document.querySelector("#trans7-step10").style.visibility = "hidden";
+
+  document.querySelector("#gif7-step10").style.visibility = "visible";
+
+  myTimeout = setTimeout(myGreeting7Step10, 14500);
+}
+
 // Time Functions of STEP 10
 
 function myGreeting1Step10(){
@@ -620,6 +634,13 @@ function myGreeting5Step10(){
 }
 
 function myGreeting6Step10(){
+  document.querySelector("#arr7-step10").style.visibility = "visible";
+  document.querySelector("#trans7-step10").style.visibility = "visible";
+
+  myStopFunction();
+}
+
+function myGreeting7Step10(){
   document.querySelector("#next-to-step11").style.visibility = "visible";
   document.querySelector("#back-to-step9").style.visibility = "visible";
 
