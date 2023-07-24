@@ -127,7 +127,7 @@ function movebeaker1Step3() {
 
   document.querySelector("#gif1-step3").style.visibility = "visible";
 
-  myTimeout = setTimeout(myGreeting1Step3, 8000);
+  myTimeout = setTimeout(myGreeting1Step3, 9000);
 }
 
 // TIME DELAY FUNCTION OF STEP 3
