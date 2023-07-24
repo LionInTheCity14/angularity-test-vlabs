@@ -81,13 +81,11 @@ function myGreeting1Step2() {
 function myGreeting2Step2() {
   document.querySelector("#arr3").style.visibility = "visible";
   document.querySelector("#trans3").style.visibility = "visible";
-
   myStopFunction();
 }
 
 function myGreeting3Step2() {
   document.querySelector("#back-to-step1").style.visibility = "visible";
-  console.log(document.querySelector("#back-to-step1").style.visibility);
   document.querySelector("#next-to-step3").style.visibility = "visible";
 
   myStopFunction();
