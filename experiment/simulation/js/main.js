@@ -157,7 +157,7 @@ function backToStep4(){
 function step4() {
   document.querySelector("#step3").style.visibility = "hidden";
   document.querySelector("#gif1-step3").style.visibility = "hidden";
-  document.querySelector("#png2-step3").style.visibility = "visible";
+  document.querySelector("#png2-step3").style.visibility = "hidden";
   document.querySelector("#next-to-step4").style.visibility = "hidden";
   document.querySelector("#back-to-step2").style.visibility = "hidden";
 
@@ -711,7 +711,6 @@ function changeResult1Step12(){
   document.querySelector("#png2-step12").style.visibility = "visible";
   document.querySelector("#reading-fill-2-step12").style.visibility = "visible";
 
-  myTimeout = setTimeout(myGreeting1Step12, 1000);
 }
 
 function changeResult2Step12(){
@@ -720,17 +719,10 @@ function changeResult2Step12(){
   
   document.querySelector("#png3-step12").style.visibility = "visible";
   
-  myTimeout = setTimeout(myGreeting2Step12, 500);
+  myTimeout = setTimeout(myGreeting1Step12, 500);
 }
 
 function myGreeting1Step12(){
-  document.querySelector("#arr2-step12").style.visibility = "visible"
-  document.querySelector("#trans2-step12").style.visibility = "visible"
-
-  myStopFunction();
-}
-
-function myGreeting2Step12(){
   document.querySelector("#next-to-postTest").style.visibility = "visible";
   document.querySelector("#back-to-step11").style.visibility = "visible";
 
